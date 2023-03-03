@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+nav{
+  display: flex;  
+  align-content: space-between;
+  width: 100%;
+}
+
+.logo_box{
+  width: 100;
+  display: flex;
+  width: max-content;
+}
+
+.logo_txt{
+  padding-top: 10px;
+  display: block;
+  width: fit-content;
+}
+
+aside{
+  position: sticky;
+  line-height: 190%;
+  margin: 30px;
+  padding-right: 10%;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 45px;
+  margin-top: 20px;
+  }
+
+input {
+  width: 50%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+.templet{
+  display: flex;
+  justify-content:space-between;
+}
+
+.login_page{
+  display: block;
+  margin-left: auto;
+}
+
+article{
+  width: 800px;
+  margin-right: 300px;
+  
+}
+
+.cardheder{
+  background-color: rgb(177, 177, 177);
+  text-align: center;
+}
+
+.profilecard{
+  flex-direction: column;
+  display: flex;
+  float: right;
+  width: 300px;
+  border: 1px solid black;
+}

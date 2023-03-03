@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;  
+}
+
+.text_color{
+  color: white;
+}
+
+.spotify_logo {
+  width: 100px;
+}
+
+ul,li{
+  list-style: none;
+}
+
+.nav{
+  margin-top: 0;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  background-color: rgb(32, 32, 32);
+}
+
+button{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: black;
+  width: 250px;
+  height: 100vh;
+  padding: 30px;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+.content_area {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  flex-grow: 1;
+  background-color: rgb(37, 37, 37);
+}
+
+.playlist {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.album > div {
+  width: 300px;
+
+}
+
+body{
+  margin: 0;
+  display: flex;
+  overflow:visible;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  background-color: black;
+  margin-top: auto;
+}
+  
+
+.footer{
+  text-align: right;
+  margin-top: auto;
+}
